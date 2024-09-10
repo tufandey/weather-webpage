@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #87ceeb; /* Light blue background */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: white; /* White background for the container */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    text-align: center;
+    width: 300px; /* Width of the container */
+}
+
+h1 {
+    font-size: 1.5em; /* Size for the main heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+input {
+    padding: 10px;
+    width: 80%; /* Width of the input field */
+    margin-bottom: 10px;
+    border-radius: 4px; /* Rounded corners for input */
+    border: 1px solid #ccc; /* Light border for input */
+}
+
+button {
+    padding: 10px 20px; /* Padding for button */
+    background-color: #28a745; /* Green background */
+    color: white; /* White text */
+    border: none; /* No border */
+    border-radius: 4px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+}
+
+button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+
+.weather-display {
+    margin-top: 20px; /* Space above the weather display */
+    font-size: 1.2em; /* Font size for weather display */
+}
+
+.weather-display h2 {
+    margin-bottom: 10px; /* Space below the weather info heading */
+}
+
+.footer {
+    margin-top: 20px; /* Space above the footer */
+    font-size: 0.9em; /* Smaller font size for footer */
+    color: #555; /* Grey color for footer text */
+}
